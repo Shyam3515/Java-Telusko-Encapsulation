@@ -19,7 +19,7 @@ class Human{
 	}
 	
 	public void setName(String name) {
-		//this represents to the current object, which is calling the method.
+		//this is a KW which represents to the current object, which is calling this method SetName.
 		//means indirectly it is obj.name here
 		this.name = name;
 	} 

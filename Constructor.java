@@ -9,8 +9,8 @@ public class Constructor {
 	private String name;
 	
 	//default constructor
-//	public Constructor() {
-//	}
+    //public Constructor() {
+    //}
 	
 	//here actually this is not a default constructor, bcz we are giving values explicitly
 	public Constructor() {
@@ -29,7 +29,7 @@ public class Constructor {
 	}
 	
 	public void setName(String name) {
-		//this represents to the current object, which is calling the method.
+		//this is a KW which represents to the current object, which is calling this method SetName.
 		//means indirectly it is obj.name here
 		this.name = name;
 	}

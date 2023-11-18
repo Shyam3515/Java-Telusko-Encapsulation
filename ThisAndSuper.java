@@ -3,7 +3,7 @@ package encapsulation;
 //this() method executes the constructor of same class
 //and super() method executes the constructor of super(parent) class.
 
-//every class in java by default extends java
+//every class in java by default extends object class
 //every constructor by default consists super method.
 class A extends Object
 {
